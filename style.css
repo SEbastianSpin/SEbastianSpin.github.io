@@ -60,6 +60,10 @@ nav a{
         padding: 5rem 1rem;
         
     }
+    .content{
+        width: 100%;
+    }
+
     }
 
 nav a:hover{
@@ -69,6 +73,7 @@ nav a:hover{
 }
 .name{
     padding-top: 3%;
+    padding-left: 1%;
 }
 
 #presentation{
