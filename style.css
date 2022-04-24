@@ -68,7 +68,7 @@ nav a{
         width: 100%;
     }
 
-    }
+}
 
 nav a:hover{
    color: #21209C;
@@ -79,9 +79,19 @@ nav a:hover{
 .apiImg{
     
     width: 30%;
+    padding: 1%;
+}
+
+.guiImg{
+    width: 10%;
+    padding: 1%;
 }
 .reactImg{
     width: 15%;
+}
+
+.Node-project{
+    width: 55%;
 }
 
 .project-Description img {
@@ -95,8 +105,17 @@ nav a:hover{
 /* .apiImg:hover {
     display: none;
 } */
-.apiImg:hover + .project-Description {
+
+
+  .apiImg:hover + .project-Description {
     display: block;
+    color: #F1F1F1;
+    text-decoration-color:#FDB827;
+  } 
+
+  .guiImg:hover + .project-Description {
+    display: block;
+    color: #FDB827;
     
   } 
 
@@ -134,12 +153,14 @@ nav a:hover{
   
 #technologies{
     background-color: #F1F1F1 ;
-   
     width: 100%;
     height: 60vh;
     order: 3;
 }
 
+#technologies p{
+    padding-left: 1%;
+}
 
 #contact{
     width: 100%;
