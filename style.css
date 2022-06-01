@@ -77,7 +77,6 @@ nav a:hover{
 }
 
 .apiImg{
-    
     width: 30%;
     padding: 1%;
 }
@@ -91,7 +90,7 @@ nav a:hover{
 }
 
 .Node-project{
-    width: 55%;
+    width: 50%;
 }
 
 .project-Description img {
@@ -140,13 +139,14 @@ nav a:hover{
    background-color: #21209C;
    height: 100vh;
    order: 2;
+   color: #F1F1F1;
 }
-/* 
+
 #projects div{
    
    display: inline-block;
     
- } */
+ }
 
 
 
